@@ -1,0 +1,96 @@
+html-revision  C:\Users\abhin\WebstormProjects\html-revision
+
+
+how website does works ?
+-->
+when we want to type any website to any browser -first we server of that browser
+checks itself that domain is searched present or not,if present it show it in the form of
+html,css ,javascript file.
+
+when we search any website to the browser,browser itself send a request to the server and check
+it that domain is present in server or not in database ,if found it share the information in the.
+form of html ,css ,javascript.
+
+Building block of Website-->
+
+html-->
+it provide the structure and content of a webpage.
+
+
+css-->
+styles and designs the appearance of web page.
+
+
+javascript-->
+Adds interactivity and dynamic behavior to the webpage.
+
+
+html- html stands for hypertext mark up language.
+what is hyper text-->hypertext is text which contains links to other texts.
+hypertext and hyperlinks stands for same.
+
+
+history of html-->
+
+1-->Early Beginning (1980s)::--
+The concept of hypertext was proposed by computer scientist Ted Nelson in the
+1960s.In the 1980s, Tim Berners-Lee , a British computer scientist ,introduced the World Wide Web (WWW)
+and developed the first HTML.
+
+html syntax::
+
+<h1>    <-- opening tag                                               --
+html is fundamental language of frontend development.  --> CONTENT   --  element
+</h1>   <-- closing tag                                               --
+
+--> html--
+
+01- HTML TIPS
+
+<p>  the file extension must be .html or .htm </p>
+
+<p> MS-DOS and Windows 3.1 ,had limitations on the number of characters in a filename.</p>
+
+02 -
+<p> The file name must be the index.html because it's a default path of our homepage or the root of our website.</p>
+
+heading
+paragraph
+br-break row
+hr-horizontal row
+
+h1:typically ,larger and bold ,around 24px to 36px or even larger.
+h2: Slightly smaller ,around 18px to 30px.
+h3:Smaller than h2,around 16px to 24px.
+h4:Generally ,around 14px to 20px.
+h5:Smaller ,Often around 12px to 18px.
+h6:The Smallest ,often around 10px to 16px.
+
+1- how do you create a paragraph using the <p> tag?
+--? we can the create a paragraph by just writing the <p> followed by writing a opening tag and closing tag ,between these tags we can write some content , it shows on the browser as the content like the text.
+2- Can you nest other HTML elements inside a <p> tag?
+No,the <p> tag is a block -level element , and it cannot contain block-level elements like other paragraphs or headings.However you can include inline
+elements like <strong> and <em>, and links.
+
+<! -- TODO Now, we will see BR and HR Tag -->
+break row and horizontal row ,create a horizontal line after the written text .
+Note--
+No matter how much whitespace you see inside HTML element content (which can include one or more space characters ,
+but also line breaks), the HTML parser reduces each sequence of whitespace to a single space when rendering the code.
+
+HTML TEXT Formatting
+
+01-Bold and Italic:
+<strong> ,<em>
+02-Underline and strikethrough:
+<u>, <s>
+03-
+Subscript and Superscipt:
+<sub>, <sup>
+04- Preformatted Text:
+<pre> ,<kbd> ,<abbr>
+05-- Text Highlighting
+<mark>,<small> ,<del>
+06-- Inline Style:
+<p>Style- </p>
+

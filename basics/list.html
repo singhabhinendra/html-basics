@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+    <style>
+        html{
+            h1{
+                text-align:center;
+            }
+            .ul1{
+                text-transform:capitalize;
+                font-weight: bold;
+                font-size:33px ;
+            }
+            .ol1{
+                text-transform:capitalize;
+                font-size:33px ;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1 >
+    fruit list
+
+</h1>
+<!--unordered list-->
+<div class="ul1">
+<ul  style="list-style: square ">
+    <li>apple</li>
+    <li>mangp</li>
+    <li>banana</li>
+    <li>pine-apple</li>
+    <li>watermelon</li>
+    <li>pears</li>
+    <li>guava</li>
+    <li>fig</li>
+    <li>aaloo-bhukhara</li>
+    <li>grapes</li>
+</ul>
+    </div>
+<!--ordered list-->
+<hr/>
+<div class="ol1">
+<!--&lt;!&ndash; here ,we can also use type attribute in place of inline css-->
+<!--like this&ndash;&gt;-->
+<!--    type="a"-->
+<!--    What is the significance of the type attribute in ordered lists?-->
+<!--    1\- Decimal numbers (type="1"): This is the default style.It uses regular-->
+<!--    decimal numbers.-->
+<!--    2\- Uppercase Letters(type="A") It uses uppercase letters (A,B,C) as list item-->
+<!--    numbers.-->
+<!--    3\- Lowercase Letters(type="a") It uses lowercase letters (a,b,c) as list item numbers.-->
+<!--    4\- Lowercase Roman Numerals(type="i"): It uses lowercase Roman numerals.-->
+<!--    5\- Uppercase Roman Numbers(type="I"): It uses uppercase Roman numersals.-->
+<!--    &#45;&#45;!>-->
+
+
+<ol style="list-style-type:decimal" start ="4">
+    <li>1st Class</li>
+    <li>2nd Class</li>
+    <li>3rd Class</li>
+    <li>4th Class</li>
+</ol>
+</div>
+<hr/>
+<div style="font-size: 33px">
+<ul style="list-style:disc">
+    <li>Fruit</li>
+    <ol style="list-style-type:decimal">
+        <li>Banana</li>
+        <li>Apple</li>
+        <ul style="list-style:square">
+            <li>Green</li>
+            <li>Red</li>
+        </ul>
+        <li>Pears</li>
+    </ol>
+    <li>Vegetables</li>
+    <li> Meat</li>
+</ul>
+</div>
+
+<hr/>
+
+<ul style="list-style:none;font-size: 33px;display: flex;gap:30px ;text-align:center    ;">
+    <li><a href="https://thapatechnical.shop/" target="_blank">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Source code</a></li>
+    <li><a href="#">Blogs</a></li>
+    <li><a href="#">Courses</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Admin</a></li>
+    <li><a href="#">Logout</a></li>
+</ul>
+
+
+</body>
+</html>
